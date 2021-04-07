@@ -21,8 +21,8 @@ environment:
   sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
-  bloc: ^7.0.0-nullsafety.3
-  flutter_bloc: ^7.0.0-nullsafety.5
+  bloc: ^7.0.0
+  flutter_bloc: ^7.0.0
   flutter_screenutil: ^5.0.0-nullsafety.10
   equatable: ^2.0.0
   universal_platform: ^1.0.0-nullsafety

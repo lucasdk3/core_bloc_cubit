@@ -30,7 +30,7 @@ class _ExamplePage2State extends State<ExamplePage2> {
               buttonUi(() {
                 theme.changeTheme(!isDark);
               }, 'Change theme'),
-              Text('Example'),
+              Text('Example 2'),
             ],
           ),
         ),
