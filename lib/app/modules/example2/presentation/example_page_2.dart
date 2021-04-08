@@ -13,8 +13,8 @@ class _ExamplePage2State extends State<ExamplePage2> {
   @override
   Widget build(BuildContext context) {
     // ignore: close_sinks
-    final theme = context.read<ThemeCubit>();
-    final isDark = context.watch<ThemeCubit>().state;
+    final cubit = context.read<ThemeCubit>();
+    final theme = context.watch<ThemeCubit>().state;
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,
@@ -28,7 +28,7 @@ class _ExamplePage2State extends State<ExamplePage2> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               buttonUi(() {
-                theme.changeTheme(!isDark);
+                cubit.changeTheme(!theme);
               }, 'Change theme'),
               Text('Example 2'),
             ],
