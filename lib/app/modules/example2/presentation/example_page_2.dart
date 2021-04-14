@@ -27,9 +27,11 @@ class _ExamplePage2State extends State<ExamplePage2> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              buttonUi(() {
-                cubit.changeTheme(!theme);
-              }, 'Change theme'),
+              buttonUi(
+                  onClick: () {
+                    cubit.changeTheme(!theme);
+                  },
+                  text: 'Change theme'),
               Text('Example 2'),
             ],
           ),

@@ -4,7 +4,6 @@ import 'package:core_bloc_cubit/app/core/side_bar/viewModel/bloc/sidebar_bloc.da
 import 'package:core_bloc_cubit/app/ui/theme/viewModel/cubit/theme_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
 import 'core/search/cubit/search_cubit.dart';
 
 class AppProviders extends StatelessWidget {

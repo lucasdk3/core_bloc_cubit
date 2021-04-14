@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../theme/presenter/theme.dart';
 
-Widget buttonUi(onClick, String text) {
+Widget buttonUi({required onClick, required String text}) {
   return Center(
     child: MaterialButton(
         minWidth: 200,

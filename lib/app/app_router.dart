@@ -6,6 +6,7 @@ import 'core/side_bar/infra/page_model.dart';
 import 'modules/example2/presentation/example_page_2.dart';
 
 class AppRouter {
+  
   List<PageModel> listPages = [
     PageModel(
         title: 'Dashboard',
